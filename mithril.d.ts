@@ -86,13 +86,16 @@ declare module _mithril {
 		href?: string;
 		list?: string;
 		for?: string;
+		src?: string;
 		onchange? (event : any): boolean;
 		onclick? (event : any): boolean;
 		onkeyup? (event : any): boolean;
 		oninput? (event : any): boolean;
+		onsubmit? (event : any): boolean;
 		value?: string;
 		style?: string;
 		placeholder?: string;
+		action?: string;
 	}
 
 	// Defines the subset of Event that Mithril needs
